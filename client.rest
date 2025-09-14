@@ -1,0 +1,15 @@
+##base url
+@baseUrl = http://localhost:3000
+
+###Rote for account:
+GET {{baseUrl}}/account/
+
+###POST account
+POST {{baseUrl}}/account/
+Content-Type: application/json
+
+{
+    "name": "Willian",
+    "email": "willian@teste.com",
+    "password": "1234"
+}
